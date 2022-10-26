@@ -1,0 +1,52 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+}
+
+.main{
+    width: 300px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.qr-image{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.qr-info{
+    text-align: center;
+    padding: 10px;
+}
+
+h2{
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+p{
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
